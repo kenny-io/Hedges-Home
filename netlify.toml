@@ -1,5 +1,29 @@
 [[redirects]]
+from = "/"
+to = "https://hedges-docs.netlify.app"
+status = 200
+force = true
+
+[[redirects]]
     from = "docs"
     to = "https://hedges-docs.netlify.app"
     status = 200
     force = true
+
+[[redirects]]
+from = "about"
+to = "https://hedges.netlify.app/about/"
+status = 200
+force = true
+
+[[redirects]]
+from = "blog"
+to = "https://hedges-docs.netlify.app"
+status = 200
+force = true
+
+[[redirects]]
+from = "products"
+to = "https://hedges-products.netlify.app"
+status = 200
+force = true
