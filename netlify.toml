@@ -5,13 +5,18 @@
     force = true
 
 [[redirects]]
-from = "blog"
-to = "https://hedges-blog.netlify.app"
-status = 200
-force = true
+    from = "blog"
+    to = "https://hedges-blog.netlify.app"
+    status = 200
+    force = true
 
 [[redirects]]
-from = "products/*"
-to = "https://hedges-products.netlify.app/:splat"
-status = 200
-force = true
+    from = "shop/*"
+    to = "https://hedges-products.netlify.app/shop/:splat"
+    force = true
+    status = 200
+
+
+
+    
+
