@@ -1,12 +1,12 @@
 [[redirects]]
-    from = "docs"
-    to = "https://hedges-docs.netlify.app"
+    from = "docs/*"
+    to = "https://hedges-docs.netlify.app/doc/:splat"
     status = 200
     force = true
 
 [[redirects]]
-    from = "blog"
-    to = "https://hedges-blog.netlify.app"
+    from = "blog/*"
+    to = "https://hedges-blog.netlify.app/post/:splat"
     status = 200
     force = true
 
@@ -15,8 +15,3 @@
     to = "https://hedges-products.netlify.app/shop/:splat"
     force = true
     status = 200
-
-
-
-    
-
