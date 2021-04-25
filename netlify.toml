@@ -1,6 +1,6 @@
 [[redirects]]
     from = "docs/*"
-    to = "https://hedges-docs.netlify.app/doc/:splat"
+    to = "https://hedges-docs.netlify.app/docs/:splat"
     status = 200
     force = true
 
